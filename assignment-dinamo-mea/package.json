@@ -1,0 +1,24 @@
+{
+  "name": "assignment-dinamo-mea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "next": "^13.5.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
