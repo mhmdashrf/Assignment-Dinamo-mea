@@ -13,7 +13,7 @@ function UpdatePost({post,onUpdate,onCancel}:UpdatePostProps) {
     const updateData=async(values:{title:string; body:string})=>{
         setLoading(true);
         try{
-         const {data}=await axios.put<Post>(`http://jsonplaceholder.typicode.com/posts/${post.id}`,{
+         const {data}=await axios.put<Post>(`https://jsonplaceholder.typicode.com/posts/${post.id}`,{
             title:values.title,
             body:values.body,
          });
